@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite  name="IkmanV1">
+  <test name="Ikman App test">
+ 
+    <classes>
+      <class name="com.ikman.testCases.Login_ikman"/>   
+      <class name="com.ikman.testCases.PostAd_ikman"/> 
+      
+      
+    </classes>
+  </test> 
+</suite> 
+            

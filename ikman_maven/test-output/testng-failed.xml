@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [IkmanV1]">
+  <test name="Ikman App test">
+    <classes>
+      <class name="com.ikman.testCases.Login_ikman"/>
+      <class name="com.ikman.testCases.PostAd_ikman"/>
+    </classes>
+  </test> <!-- Ikman App test -->
+  <test name="Ikman App test(failed)">
+    <classes>
+      <class name="com.ikman.testCases.Login_ikman">
+        <methods>
+          <include name="generate_report"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verify_ikman_title"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.ikman.testCases.Login_ikman -->
+      <class name="com.ikman.testCases.PostAd_ikman">
+        <methods>
+          <include name="generate_report"/>
+        </methods>
+      </class> <!-- com.ikman.testCases.PostAd_ikman -->
+    </classes>
+  </test> <!-- Ikman App test(failed) -->
+</suite> <!-- Failed suite [IkmanV1] -->
